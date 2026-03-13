@@ -15,7 +15,7 @@ cruiser = {
     priority = 12
     max_strength = 100
     default_organisation = 30
-    maximum_speed = 50
+    maximum_speed = 60
     weighted_value = 8.0
     floating_flag = yes
 

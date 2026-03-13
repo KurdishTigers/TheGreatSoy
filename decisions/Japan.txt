@@ -257,7 +257,6 @@ political_decisions = {
 
         allow = {
             war = no
-            has_country_flag = emperor_meiji
             NOT = { has_country_modifier = kobu_gattai }
             OR = {
                 is_vassal = no

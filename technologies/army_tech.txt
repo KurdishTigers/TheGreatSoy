@@ -583,7 +583,7 @@ deep_defense_system = {
 }
 infiltration = {
     area = army_doctrine
-    year = 1900
+    year = 1904
     cost = 18000
     unciv_military = yes
     army_base = {
@@ -3036,8 +3036,8 @@ military_directionism = {
 }
 aeronautics = {
     area = military_science
-    year = 1914
-    cost = 21600
+    year = 1900
+    cost = 10000
     army_base = {
         default_organisation = 10
         supply_consumption = 0.20
