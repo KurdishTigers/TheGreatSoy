@@ -512,7 +512,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "sort_by_name"
 				position = { x= 33 y = 116}
-				quadTextureSprite = "GFX_sortbutton_292"		
+				quadTextureSprite = "GFX_sortbutton_204"		
 				buttonText="PRODUCTION_SORT_BY_NAME"	
 				buttonFont = "vic_18_black"
 				Orientation = "UPPER_LEFT"
@@ -521,8 +521,8 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "sort_by_factories"
-				position = { x= 323 y = 116}
-				quadTextureSprite = "GFX_sortbutton_156"		
+				position = { x= 237 y = 116}
+				quadTextureSprite = "GFX_sortbutton_108"		
 				buttonText="PRODUCTION_SORT_BY_FACTORIES"	
 				buttonFont = "vic_18_black"
 				Orientation = "UPPER_LEFT"
@@ -530,7 +530,7 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "sort_by_infra"
-				position = { x= 870 y = 116}
+				position = { x= 869 y = 116}
 				quadTextureSprite = "GFX_sortbutton_120"		
 				buttonText="PRODUCTION_SORT_BY_INFRA"	
 				buttonFont = "vic_18_black"
@@ -646,7 +646,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "sort_by_name"
 				position = { x= 33 y = 233}
-				quadTextureSprite = "GFX_sortbutton_292"		
+				quadTextureSprite = "GFX_sortbutton_204"		
 				buttonText="PRODUCTION_SORT_BY_NAME"	
 				buttonFont = "vic_18_black"
 				Orientation = "UPPER_LEFT"
@@ -655,8 +655,8 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "sort_by_factories"
-				position = { x= 323 y = 233}
-				quadTextureSprite = "GFX_sortbutton_156"		
+				position = { x= 237 y = 233}
+				quadTextureSprite = "GFX_sortbutton_108"		
 				buttonText="PRODUCTION_SORT_BY_FACTORIES"	
 				buttonFont = "vic_18_black"
 				Orientation = "UPPER_LEFT"
@@ -664,7 +664,7 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "sort_by_infra"
-				position = { x= 870 y = 233}
+				position = { x= 869 y = 233}
 				quadTextureSprite = "GFX_sortbutton_120"		
 				buttonText="PRODUCTION_SORT_BY_INFRA"	
 				buttonFont = "vic_18_black"
@@ -734,7 +734,7 @@ guiTypes = {
 			name = "pop_sort_buttons"
 			backGround =""
 			size = { x=400  y=32 }
-			position = { x= 478 y = 116}			
+			position = { x= 345 y = 116}			
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = "0"
@@ -747,7 +747,7 @@ guiTypes = {
 			name = "pop_sort_buttons_invest"
 			backGround =""
 			size = { x=400  y=32 }
-			position = { x= 478 y = 233}			
+			position = { x= 345 y = 233}			
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = "0"
@@ -1063,7 +1063,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "factory_count"
-			position = { x = 355 y = 4 }
+			position = { x = 247 y = 4 }
 			font = "vic_22"
 			text = "factory_count"	
 			maxWidth = 100
@@ -1082,7 +1082,7 @@ guiTypes = {
 			name = "pop_info_bounds"
 			backGround =""
 			size = { x=500  y=10 }
-			position = { x = 475 y = 0 }
+			position = { x = 342 y = 0 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = "0"
@@ -1099,7 +1099,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "avg_infra_text"
-			position = { x = 882 y =4 }
+			position = { x = 881 y =4 }
 			font = "vic_22"
 			text = "675"	
 			maxWidth = 60
@@ -1152,7 +1152,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "factory_count"
-			position = { x = 355 y = 4 }
+			position = { x = 247 y = 4 }
 			font = "vic_22"
 			text = "factory_count"	
 			maxWidth = 100
@@ -1171,7 +1171,7 @@ guiTypes = {
 			name = "pop_info_bounds"
 			backGround =""
 			size = { x=500  y=10 }
-			position = { x = 475 y = 0 }
+			position = { x = 342 y = 0 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = "0"
@@ -1188,7 +1188,7 @@ guiTypes = {
 		}
 		instantTextBoxType = { 
 			name = "avg_infra_text"
-			position = { x = 882 y =4 }
+			position = { x = 881 y =4 }
 			font = "vic_22"
 			text = "675"	
 			maxWidth = 60

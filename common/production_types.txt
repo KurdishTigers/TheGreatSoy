@@ -18,12 +18,12 @@ factory_template = {
             effect = throughput
             amount = 0.8
         }
-#        {
-#            poptype = slaves
-#            effect = throughput
-#            amount = 0.8
-#			effect_multiplier = 0.75
-#        }
+        {
+            poptype = slaves
+            effect = throughput
+            amount = 0.8
+			effect_multiplier = 0.75
+        }
         {
             poptype = clerks
             effect = output
@@ -53,12 +53,12 @@ cheap_factory_template = {
             effect = throughput
             amount = 0.8
         }
-#        {
-#            poptype = slaves
-#            effect = throughput
-#            amount = 0.8
-#			effect_multiplier = 0.75
-#        }
+        {
+            poptype = slaves
+            effect = throughput
+            amount = 0.8
+			effect_multiplier = 0.75
+        }
         {
             poptype = clerks
             effect = output
@@ -88,12 +88,12 @@ machine_part_user_template = {
             effect = throughput
             amount = 0.8
         }
-#        {
-#            poptype = slaves
-#            effect = throughput
-#            amount = 0.8
-#			effect_multiplier = 0.75
-#        }
+        {
+            poptype = slaves
+            effect = throughput
+            amount = 0.8
+			effect_multiplier = 0.75
+        }
         {
             poptype = clerks
             effect = output
@@ -124,12 +124,12 @@ cement_template = {
             effect = throughput
             amount = 0.8
         }
-#        {
-#            poptype = slaves
-#            effect = throughput
-#            amount = 0.8
-#			effect_multiplier = 0.75
-#        }
+        {
+            poptype = slaves
+            effect = throughput
+            amount = 0.8
+			effect_multiplier = 0.75
+        }
         {
             poptype = clerks
             effect = output

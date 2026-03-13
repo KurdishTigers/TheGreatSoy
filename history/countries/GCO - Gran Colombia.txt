@@ -1,5 +1,8 @@
 capital = 2247
 primary_culture = north_andean
+culture = amazonian
+culture = quechua
+culture = centeral_american
 religion = catholic
 government = democracy
 plurality = 0.0

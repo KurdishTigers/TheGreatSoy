@@ -1,3 +1,4 @@
+
 political_decisions = {
 
     gran_colombia_by_sword = {
@@ -15,9 +16,6 @@ political_decisions = {
         }
 
         allow = {
-            nationalism_n_imperialism = 1
-            is_greater_power = yes
-            war_policy = jingoism
             war = no
         }
 
@@ -35,6 +33,7 @@ political_decisions = {
 
     form_gran_colombia = {
         picture = form_gran_colombia
+
         potential = {
             OR = {
                 tag = CLM
@@ -45,69 +44,21 @@ political_decisions = {
         }
 
         allow = {
-            war = no
-            prestige = 50
-            nationalism_n_imperialism = 1
-            CLM = {
-                OR = {
-                    in_sphere = THIS
-                    vassal_of = THIS
-                    all_core = {
-                        OR = {
-                            owned_by = THIS
-                            province_id = 2243
-                            province_id = 2242
-                        }
-                    }
-                }
-            }
-            ECU = {
-                OR = {
-                    in_sphere = THIS
-                    vassal_of = THIS
-                    all_core = {
-                        OR = {
-                            owned_by = THIS
-                            province_id = 2243
-                            province_id = 2242
-                        }
-                    }
-                }
-            }
-            VNZ = {
-                OR = {
-                    in_sphere = THIS
-                    vassal_of = THIS
-                    all_core = {
-                        OR = {
-                            owned_by = THIS
-                            province_id = 2243
-                            province_id = 2242
-                        }
-                    }
-                }
-            }
+            2279 = { owned_by = THIS }
+            2264 = { owned_by = THIS }
         }
 
         effect = {
-            prestige = 10
-            CLM = {
-                all_core = { add_core = GCO }
-            }
-            ECU = {
-                all_core = { add_core = GCO }
-            }
-            VNZ = {
-                all_core = { add_core = GCO }
-            }
-            PNM = {
-                all_core = { add_core = GCO }
-            }
-            COS = {
-                all_core = { add_core = GCO }
-            }
-            # some early claims we can roll with for future colombian lebensraum
+            prestige = 100
+
+            CLM = { all_core = { add_core = GCO } }
+            ECU = { all_core = { add_core = GCO } }
+            VNZ = { all_core = { add_core = GCO } }
+            PNM = { all_core = { add_core = GCO } }
+            COS = { all_core = { add_core = GCO } }
+
             2401 = { add_core = GCO }
+
             any_country = {
                 limit = {
                     ai = yes
@@ -121,30 +72,22 @@ political_decisions = {
                     secede_province = THIS
                 }
             }
+
             random_country = {
-                limit = {
-                    tag = CLM
-                    exists = yes
-                    ai = no
-                }
+                limit = { tag = CLM exists = yes ai = no }
                 country_event = 11101
             }
+
             random_country = {
-                limit = {
-                    tag = ECU
-                    exists = yes
-                    ai = no
-                }
+                limit = { tag = ECU exists = yes ai = no }
                 country_event = 11101
             }
+
             random_country = {
-                limit = {
-                    tag = VNZ
-                    exists = yes
-                    ai = no
-                }
+                limit = { tag = VNZ exists = yes ai = no }
                 country_event = 11101
             }
+
             change_tag = GCO
         }
 

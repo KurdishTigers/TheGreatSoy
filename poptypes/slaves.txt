@@ -4,7 +4,7 @@ allowed_to_vote = no
 is_slave = yes
 color = { 17 17 17 }
 unemployment = yes
-#can_work_factory = yes
+can_work_factory = yes
 
 rebel = {
     cavalry = 0.0
@@ -14,7 +14,7 @@ rebel = {
     guard = 0.0
     hussar = 0.0
     infantry = 0.0
-    irregular = 1
+    irregular = 0.0
 }
 
 
