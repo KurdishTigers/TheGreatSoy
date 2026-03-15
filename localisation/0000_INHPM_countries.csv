@@ -91,10 +91,10 @@ COB;Saxe-Coburg & Gotha;;;;;;;;;;;;;x
 CRT_ADJ;Correntino;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 CSA;The Confederate States;;;;;;;;;;;;;;
 CSA_absolute_monarchy;The Imperial Confederacy;;;;;;;;;;;;x
-CSA_bourgeois_dictatorship;The Confederate States;;;;;;;;;;;;;;
-CSA_democracy;The Confederate States;;;;;;;;;;;;x
+CSA_bourgeois_dictatorship;The Confederate States of America;;;;;;;;;;;;;;
+CSA_democracy;The Confederate States of America;;;;;;;;;;;;x
 CSA_fascist_dictatorship;The Confederacy;;;;;;;;;;;;;;
-CSA_presidential_dictatorship;The Confederate States;;;;;;;;;;;;;;
+CSA_presidential_dictatorship;The Confederate States of America;;;;;;;;;;;;;;
 CSA_proletarian_dictatorship;The People's Confederacy;;;;;;;;;;;;x
 CSA_prussian_constitutionalism;The Imperial Confederacy;;;;;;;;;;;;x
 CZE_democracy;The Czechoslovak Republic;;;;;;;;;x;;;;
@@ -169,10 +169,10 @@ GAZ_absolute_monarchy;The Gaza Empire;;;;;;;;;;;;x
 GBU_absolute_monarchy;The Kaabu Empire;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GBU_absolute_monarchy_ADJ;Kaabuan;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 GEL;The Geledi;;;;;;;;;;x;;;;;;;;;;;;;;
-GER_democracy;The German Republic;;;;;;;;;;;x
+GER_democracy;The Federal Republic of Germany;;;;;;;;;;;x
 GER_absolute_monarchy;The German Empire;;;;;;;;;;;;x
 GER_prussian_constitutionalism;The German Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-GER_fascist_dictatorship;The German Reich;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GER_fascist_dictatorship;Nazi Reich;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GER_hms_government;The German Empire;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GER_proletarian_dictatorship;The German Democratic Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 GLM;Galicia & Lodomeria;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -197,7 +197,7 @@ HUI_presidential_dictatorship;The Anhui Clique;;;;;;;;;;;;x
 HUN_proletarian_dictatorship;The Hungarian People's Republic;;;;;;;;;x;;;;
 IOM;The Isle of Man;;;;;;;;;x
 ITA_democracy;The Italian Republic;;;;;;;;;;;;;;x
-ITA_fascist_dictatorship;The Italian Social Republic;;;;;;;;;;;;;x
+ITA_fascist_dictatorship;Greater Italia;;;;;;;;;;;;;x
 ITA_proletarian_dictatorship;The People's Republic of Italy;;;;;;;;;;;;;x
 ITA_hms_government;The Kingdom of Italy;;;;;;;;;;;;;x
 ITA_prussian_constitutionalism;The Italian Empire;;;;;;;;;;;;;x
@@ -435,9 +435,10 @@ URA_democracy;The Ural Free State;;;;;;;;;;;;;x
 URA_hms_government;The Ural State;;;;;;;;;;;;;x
 URA_proletarian_dictatorship;The Ural People's Republic;;;;;;;;;;;;;x
 URA_prussian_constitutionalism;The Ural State;;;;;;;;;;;;;x
-USA;The United States;;;;;;;;;;;;;;
-USA_democracy;The United States;;;;;;;;;;;;;;
-USA_bourgeois_dictatorship;The United States;;;;;;;;;;;;;;
+USA;The United States of America;;;;;;;;;;;;;;
+USA_fascist_dictatorship;The Silver Legion of America;;;;;;;;;;;;;
+USA_democracy;The United States of America;;;;;;;;;;;;;;
+USA_bourgeois_dictatorship;The United States of America;;;;;;;;;;;;;;
 UYG;East Turkestan;;;;;;;;;;;;;x
 VEN_democracy;San Marco;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 WAD_absolute_monarchy;The Wadai Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,

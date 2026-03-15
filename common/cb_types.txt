@@ -129,6 +129,7 @@ establish_protectorate_casus_belli
 negotiated_transfer
 status_quo
 take_capital
+demand_for_ally
 demand_concession_capital
 #restore_puppet_province
 }
@@ -205,6 +206,7 @@ dismantle_cb = {
         set_country_flag = dismantling_treaty
     }
 }
+
 
 dismantle_cb_add = {
     sprite_index = 20
@@ -1170,6 +1172,123 @@ unification_annex_casus_belli = {
             value = 0.1
         }
     }
+}
+
+#Demand For Ally
+demand_for_ally = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	badboy_factor = 2
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	can_use = {
+		THIS = {
+			OR = {
+				NOT = {
+					has_global_flag = ww1_bookmark
+				}
+				has_global_flag = central_victory
+				has_global_flag = allied_victory
+				ai = no
+			}
+		}
+		THIS = {
+			ai = no
+		}
+		NOT = {
+			OR = {
+				tag = JAN
+				tag = GHO
+			}
+		}
+	}
+	allowed_countries = {
+		number_of_states = 2
+		NOT = {
+			tag = FROM
+			this_culture_union = FROM
+		}
+		FROM = {
+			exists = yes
+			NOT = {
+				OR = {
+					tag = JAN
+					tag = GHO
+				}
+			}
+		}
+		THIS = {
+			OR = {
+				NOT = {
+					has_country_flag = chinese
+				}
+				has_global_flag = taiping_has_happened
+			}
+		}
+		THIS = {
+			NOT = {
+				has_country_flag = jan_mayen
+			}
+		}
+		NOT = {
+			AND = {
+				OR = {
+					tag = EGY
+					tag = TUR
+					tag = RUS
+				}
+				THIS = {
+					has_country_modifier = oriental_truce
+				}
+			}
+		}
+		NOT = {
+			civilized = no
+		}
+	}
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+			NOT = {
+				is_core = CHI
+			}
+			OR = {
+				NOT = {
+					is_core = FROM
+				}
+				NOT = {
+					is_core = THIS
+				}
+				NOT = {
+					is_capital = yes
+				}
+			}
+		}
+	}
+	po_transfer_provinces = yes
+	war_name = WAR_FORALLIES_NAME
+	on_add = {
+		move_issue_percentage = {
+			from = jingoism
+			to = pro_military
+			value = 0.1
+		}
+	}
 }
 
 # Annex Core Country

@@ -131,9 +131,9 @@ HUN = {
 
 # The Ottomans
 TUR = {
-    color1= { 126 203 120  }
-    color2= { 255 255 255  }
-    color3= { 135 104 85  }
+    color1= { 180 0 0 }
+    color1= { 180 0 0 }
+    color1= { 180 0 0 }
 }
 
 
@@ -524,7 +524,7 @@ SIC = {
     color3= { 131 101 85  }
 }
 
-# Siebenbürgen
+# Siebenb rgen
 SIE = {
     color1= { 75 111 205  }
     color2= { 124 140 162  }

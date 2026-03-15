@@ -1,8 +1,9 @@
 capital = 720
 primary_culture = north_italian
+culture = swiss
 culture = south_italian
-culture = slovenian
-culture = croatian
+culture = slovene
+culture = croat
 culture = albanian
 religion = catholic
 government = hms_government

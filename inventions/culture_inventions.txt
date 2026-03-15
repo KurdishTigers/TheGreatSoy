@@ -1759,7 +1759,7 @@ the_police_state = {
     effect = {
         rebel_org_gain = {
             faction = all
-            value = -0.25
+            value = -0.50
         }
 
         suppression_points_modifier = 0.25

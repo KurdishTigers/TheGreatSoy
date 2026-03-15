@@ -1,8 +1,8 @@
 #color = { 194  53  60 }
-color = { 232  26  63 }
-absolute_monarchy = { 194  123  47 }
-prussian_constitutionalism = { 232  26  63 }
-hms_government = { 232  26  63 }
+color = { 244  121  158 }
+absolute_monarchy = { 244  121  158 }
+prussian_constitutionalism = { 244  121  158 }
+hms_government = { 244  121  158 }
 proletarian_dictatorship = { 199  67  44 }
 democracy = { 244  121  158 }
 fascist_dictatorship = { 248 51 22 }
